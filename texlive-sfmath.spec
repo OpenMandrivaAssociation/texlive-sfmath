@@ -41,6 +41,7 @@ is displayed with sans serif fonts.
 #-----------------------------------------------------------------------
 %files
 %{_texmfdistdir}/tex/latex/sfmath/sfmath.sty
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -51,3 +52,5 @@ is displayed with sans serif fonts.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
