@@ -1,6 +1,6 @@
 Name:		texlive-sfmath
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Sans-serif mathematics
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/sfmath/sfmath.sty
